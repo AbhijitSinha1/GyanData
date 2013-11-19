@@ -41,11 +41,14 @@ body {
 
 /*  custom menu*/
 .navbar-inverse {
-  background-color: #3477bb;
+  background: #3477bb;
   border-color: #3477bb;
   min-height: 60px;
   text-transform: uppercase;
   font-size: 12px;
+	-webkit-box-shadow:0 0px 0px rgba(0,0,0,0.075);
+	-box-shadow: 0px 0px 0px  rgba(0,0,0,0.075);
+	-moz-box-shadow: 0px 0px 0px  rgba(0,0,0,0.075);  
 }
 
 .navbar-brand {
@@ -118,7 +121,7 @@ body {
 }
 
 .clients>.container {
-	/*border-bottom: 1px solid #ddd;*/
+	/*border-bottom: 1px solid #ddd;*/cmd
 }
 
 .thumbnail{
