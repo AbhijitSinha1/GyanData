@@ -9,7 +9,13 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
+
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+  body {
+    padding-top: 50px;
+  }
+  </style>
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -31,9 +37,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#">Project name</a>
+                  <!-- <a class="navbar-brand" href="#">GyanData</a> -->
                 </div>
-                <div class="navbar-collapse collapse">
+                <div class="navbar-collapse collapse pull-right">
                   <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -44,10 +50,6 @@
                         <li><a href="#">Action</a></li>
                         <li><a href="#">Another action</a></li>
                         <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li class="dropdown-header">Nav header</li>
-                        <li><a href="#">Separated link</a></li>
-                        <li><a href="#">One more separated link</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -57,40 +59,149 @@
 
             <!-- Main jumbotron for a primary marketing message or call to action -->
             <div class="jumbotron">
-              <div class="container">
+              <div class="container">                
                 <h1>Hello, world!</h1>
                 <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
               </div>
             </div>
 
-            <div class="container">
-              <!-- Example row of columns -->
+            <div class="news">
+              <div class="container">
+                <!-- Example row of columns -->
+                <div class="row">
+                  <b>News and Events : </b>GyanData Collabrates with MPM infosoft to develop a cloud based ERP for foundry.
+                </div>
+              </div> <!-- /container --> 
+            </div>
+
+            <div>
+             <div class="container content">
               <div class="row">
-                <div class="col-lg-4">
-                  <h2>Heading</h2>
-                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                  <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+                <div class="col-md-6">
+                  <div class="thumbnail">
+                    <div class="title"> What we do ? (present in good way) </div>
+                    <img data-src="holder.js/300x200" alt="300x200" style="width: 300px; height: 150px;" src="data:image/png;base64,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">
+                    <div class="caption">
+                      <h3>MPM Infosoft</h3>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula. <span class="readmore">Read more +</span></p>
+
+                    </div>
+                  </div>
                 </div>
-                <div class="col-lg-4">
-                  <h2>Heading</h2>
-                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                  <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+                
+                <div class="col-md-6">
+                  <div class="thumbnail">
+                    <div class="title"> Innovations / Blogs</div>
+                    <img data-src="holder.js/300x200" alt="300x200" style="width: 600px; height: 300px;" src="data:image/png;base64,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">
+                    <div class="caption">
+                      <h3>Event Detection in Finance</h3>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula. <span class="readmore">Read more +</span></p>
+
+                    </div>
+                  </div></div>
                 </div>
-                <div class="col-lg-4">
-                  <h2>Heading</h2>
-                  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                  <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+              </div> 
+            </div>
+
+            <div class="clients">
+              <div class="container">
+                <div class="row clients-title">CUSTOMER CASE STUDIES</div>
+                <div class="row clients-content">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                      <div class="thumbnail">
+                        <img data-src="holder.js/300x200" alt="300x200" style="width: 300px; height: 150px;" src="data:image/png;base64,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">
+                        <div class="caption">
+                          <h3>MPM Infosoft</h3>
+                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula. <span class="readmore">Read more +</span></p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                      <div class="thumbnail">
+                        <img data-src="holder.js/300x200" alt="300x200" style="width: 300px; height: 150px;" src="data:image/png;base64,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">
+                        <div class="caption">
+                          <h3>MPM Infosoft</h3>
+                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula.</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                      <div class="thumbnail">
+                        <img data-src="holder.js/300x200" alt="300x200" style="width: 300px; height: 150px;" src="data:image/png;base64,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">
+                        <div class="caption">
+                          <h3>MPM Infosoft</h3>
+                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula.</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                      <div class="thumbnail">
+                        <img data-src="holder.js/200x200" alt="300x200" style="width: 300px; height: 150px;" src="data:image/png;base64,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">
+                        <div class="caption">
+                          <h3>MPM Infosoft</h3>
+                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula.</p>
+                          
+                        </div>
+                      </div>
+                    </div>        
+                  </div>
                 </div>
               </div>
-            </div> <!-- /container --> 
+            </div>
 
-            <div id="push"></div>
+            <div class="push"></div>
           </div>
 
           <div id="footer">
             <div class="container">
-              <p class="muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
+              <div class="row prefooter">
+                <div class="col-md-3">
+                  <div class="title"> Quotes </div><br>
+                  <blockquote>
+  <p>Everything we can measure is a treasure</p>
+  <small>Someone about to get famous <cite title="Source Title"></cite></small>
+</blockquote>
+                </div>
+                <div class="col-md-3">
+                  <ul>
+                    <div class="title"> About us </div>
+                    <li><a href="#">Lots of links</a></li>
+                    <li><a href="#">Lots of links</a></li>
+                    <li><a href="#">Lots of links</a></li>
+                    <li><a href="#">Lots of links</a></li>
+                    <li><a href="#">Lots of links</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <div class="title"> About us </div>                    
+                    <li><a href="#">Lots of links</a></li>
+                    <li><a href="#">Lots of links</a></li>
+                    <li><a href="#">Lots of links</a></li>
+                    <li><a href="#">Lots of links</a></li>
+                    <li><a href="#">Lots of links</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <div class="title"> About us </div>                    
+                    <li><a href="#">Lots of links</a></li>
+                    <li><a href="#">Lots of links</a></li>
+                    <li><a href="#">Lots of links</a></li>
+                    <li><a href="#">Lots of links</a></li>
+                    <li><a href="#">Lots of links</a></li>
+                  </ul>
+                </div>
+
+              </div>
+              <div class="row copyright pull-right">Copyright &copy; GyanData Pvt Ltd. 2013. All rights reserved.</div>
+              <!-- <p class="muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p> -->
             </div>
           </div>
 
